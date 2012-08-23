@@ -1,0 +1,47 @@
+<div class="mod_application_settings">
+    <form class="form-horizontal" action="">
+        <fieldset>
+            <div class="control-group">
+                <label class="control-label"><%= application_id %></label>
+
+                <div class="controls">
+                    <input type="text" value="com.company.application">
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" style="line-height: 27px;"><%= application_icon %></label>
+
+                <div class="controls">
+                    <div class="input-append input-prepend">
+                        <span class="add-on icon-preview"><img src="lib/img/tidesdk-icon-32px.png"></span>
+                        <button class="btn btn-large"><%= change %></button>
+                    </div>
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label"><%= sdk_version %></label>
+
+                <div class="controls">
+                    <div class="btn-group" style="display: inline-block;">
+                        <button class="btn dropdown-toggle" data-toggle="dropdown">1.2 RC3 <span
+                                class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">1.2 RC3</a></li>
+                            <li><a href="#">1.2 RC4</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label"><%= publisher_information %></label>
+
+                <div class="controls">
+                    <button class="btn"><span class="publisher-name"
+                                              style="background-image: url(http://wearekiss.com/favicon.ico)">Kiss</span>
+                    </button>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</div>

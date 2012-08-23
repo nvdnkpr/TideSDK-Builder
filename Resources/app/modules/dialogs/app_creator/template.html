@@ -1,0 +1,51 @@
+<fieldset title="test" class="form-horizontal">
+    <div class="control-group">
+        <label class="control-label"><%= application_title %>:</label>
+
+        <div class="controls">
+            <input type="text" class="txt-application-title">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label"><%= application_id %>:</label>
+
+        <div class="controls">
+            <input type="text" class="txt-application-id" value="com.company.apptitle">
+        </div>
+    </div>
+</fieldset>
+
+<hr>
+
+<div class="row">
+    <div class="span2 well">
+        <div class="browse-folder">
+            <%= drop_folder %>
+        </div>
+        <button class="btn btn-large btn-browse-folder btn-primary"><%= browse %></button>
+    </div>
+    <div class="span5 well">
+        <div class="btn-group">
+            <a class="btn dropdown-toggle btn-primary" data-toggle="dropdown" href="#"
+               style="width: 360px; text-align: left;">
+                <%= standard_template %>
+                <span style="float: right;" class="caret"></span>
+            </a>
+            <ul class="dropdown-menu template-dropper">
+                <li><a><%= standard_template %></a></li>
+                <li class="divider"></li>
+                <li><a href="#" class="template-tut"><i class="icon-globe icon-black"> </i><i class="icon-globe icon-white"> </i> <%= how_to %></a></li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <div class="template-description">
+            <img src="lib/img/default-app.png" class="thumbnail">
+
+            <p>
+                <%= standard_template_description.replace(/\n/gm, '<br>') %>
+            </p>
+        </div>
+    </div>
+</div>

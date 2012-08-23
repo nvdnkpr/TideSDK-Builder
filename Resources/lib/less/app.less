@@ -1,0 +1,107 @@
+#app {
+    margin: 20px;
+}
+
+.application-header{
+    height: 85px;
+    margin-bottom: 15px;
+}
+
+.sidebar{
+
+}
+
+.applications-list {
+    li {
+        a {
+            line-height: 18px;
+            padding-top: 6px;
+            padding-bottom: 6;
+            white-space: nowrap;
+            overflow-x: hidden;
+            text-overflow: ellipsis;
+            border-bottom: @grayLighter solid 1px;
+            position: relative;
+
+            &:before {
+                content: "";
+                display: inline-block;
+                vertical-align: top;
+                line-height: 18px;
+                width: 16px;
+                height: 16px;
+                margin-right: 5px;
+                background: url(../img/tidesdk-icon-16px.png) left center no-repeat;
+            }
+        }
+
+        &:last-child a {
+            border-bottom: none;
+        }
+    }
+}
+
+.btn_add_application{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.logo{
+    margin-left: 0;
+    vertical-align: bottom;}
+
+.headspace{
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.application-title{
+    margin-top: 34px;
+
+    h1{
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 15px;
+    }
+
+    .run{
+        margin-right: 10px;
+    }
+
+    .package{
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
+.icon-preview{
+    height: 27px !important;
+    width: 27px !important;
+    background: #fff !important;
+    line-height: 25px !important;
+
+    img{
+        height: 24px;
+        width: 24px;
+    }
+}
+
+.publisher-name{
+    padding-left: 22px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 20px;
+    right: 20px;
+    background: #fff;
+    padding-top: 10px;
+    border-top: 1px solid #e5e5e5;
+}

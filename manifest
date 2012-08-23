@@ -1,0 +1,20 @@
+#appname:TideSDK Builder
+#appid:org.tidesdk.builder
+#publisher:Christian
+#image:default_app_logo.png
+#url:http://tidesdk.org
+#guid:a9cd344c-a9f3-4d9e-8045-25facb11e262
+#desc:No description provided
+#type:desktop
+runtime:1.2.0.RC6d
+tiapp:1.2.0.RC6d
+tifilesystem:1.2.0.RC6d
+tiplatform:1.2.0.RC6d
+tiui:1.2.0.RC6d
+ticodec:1.2.0.RC6d
+tidatabase:1.2.0.RC6d
+timedia:1.2.0.RC6d
+timonkey:1.2.0.RC6d
+tinetwork:1.2.0.RC6d
+tiprocess:1.2.0.RC6d
+tiworker:1.2.0.RC6d
