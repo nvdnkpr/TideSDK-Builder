@@ -1,4 +1,4 @@
-<fieldset title="test" class="form-horizontal">
+<fieldset class="form-horizontal">
     <div class="control-group">
         <label class="control-label"><%= application_title %>:</label>
 
@@ -10,9 +10,16 @@
         <label class="control-label"><%= application_id %>:</label>
 
         <div class="controls">
-            <input type="text" class="txt-application-id" value="com.company.apptitle">
+            <input type="text" title="Automatically generated" class="txt-application-id" value="">
         </div>
     </div>
+    <div class="control-group">
+            <label class="control-label"><%= publisher %>:</label>
+
+            <div class="controls publisher_picker">
+                <!-- publisher picker -->
+            </div>
+        </div>
 </fieldset>
 
 <hr>

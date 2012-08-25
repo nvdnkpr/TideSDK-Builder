@@ -13,12 +13,12 @@
 <id>initial</id>
 <title>TideSDK Builder</title>
 <url>app://index.html</url>
-<width>1000</width>
+<width>850</width>
 <max-width>3000</max-width>
 <min-width>1000</min-width>
 <height>610</height>
 <max-height>3000</max-height>
-<min-height>610</min-height>
+<min-height>850</min-height>
 <fullscreen>false</fullscreen>
 <resizable>true</resizable>
 <chrome scrollbars="true">true</chrome>

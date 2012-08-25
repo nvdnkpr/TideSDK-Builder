@@ -3,6 +3,7 @@ define({
         "headline": "Create new Application",
         "application_title": "Application Title",
         "application_id": "Application ID",
+        "publisher": "Publisher Information",
         "drop_folder": "Drop folder here",
         "browse": "Browse",
         "standard_template": "Standard Template",

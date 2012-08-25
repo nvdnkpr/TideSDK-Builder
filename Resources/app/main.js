@@ -3,6 +3,10 @@
  * ===========
  * description
  */
+requirejs.config({
+    urlArgs: "bust=" +  (new Date()).getTime()
+});
+
 define(['modules/ui/application_controller', 'modules/ui/application_settings', 'modules/ui/application_list'], function(mod_application_controller, mod_application_settings, mod_application_list){
 
     //Embedding the application controller.
