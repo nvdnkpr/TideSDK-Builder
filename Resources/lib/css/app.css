@@ -1,0 +1,21 @@
+.container {
+	margin: 0 auto;
+	width:300px;
+	text-align:center;
+}
+h3 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.output {
+	display: none;
+	text-align: center;
+}
+.console{margin:0 auto;width:85%;height:320px;margin-top:10px;overflow-y:scroll;background:#282828;-webkit-border-radius:6px;font-family:monospace;font-size:11px;color:#a6e22a;line-height:1.8em;text-align:left;}
+.console ul{margin-top:15px}
+.console ul li{display:block}
+.console ul .important{color:#fd971f}
+.console ul .notice{color:#66d9ef}
+#end {
+	margin-top: 5px;
+}

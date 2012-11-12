@@ -1,0 +1,20 @@
+#appname:TideSDK Builder Mini
+#appid:org.tidesdk.TideSDK
+#publisher:dub
+#image:default_app_logo.png
+#url:TideSDK
+#guid:230f28fc-b627-4a53-b2bd-9d560b7b45c6
+#desc:undefined
+#type:desktop
+runtime:1.3.0-beta
+app:1.3.0-beta
+codec:1.3.0-beta
+database:1.3.0-beta
+filesystem:1.3.0-beta
+media:1.3.0-beta
+monkey:1.3.0-beta
+network:1.3.0-beta
+platform:1.3.0-beta
+process:1.3.0-beta
+ui:1.3.0-beta
+worker:1.3.0-beta
